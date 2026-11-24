@@ -326,16 +326,15 @@ this environment, so execution in those applications remains unverified.
 md(r"""
 ## Task 1.5 — Repository and submission
 
-The manual permits a GitHub, GitLab, **or local** Git repository. The local
-repository for this work is:
+This work uses the **GitHub repository** option:
 
-`C:\Users\amins\Downloads\DSP\COU07506-labs`
+[Shemsanofly/COU07506-labs](https://github.com/Shemsanofly/COU07506-labs)
 
-Repository name: **COU07506-labs**. The Week 1 notebook, Octave script,
-generated figures, generated WAV, and reproducible notebook source are
-included in the local commit. No remote URL exists yet. This local path is
-the repository reference for the permitted local option. To inspect it, run
-`git log -1 --oneline` and `git status --short` in that folder.
+Repository name: **COU07506-labs**. The repository link above is the
+repository reference for this submission. The Week 1 notebook, Octave
+script, generated figures, generated WAV, and reproducible notebook source
+are versioned together. After editing the notebook, commit and push the
+updated file so that the GitHub copy matches the eLMS submission.
 
 **Submission steps requiring your account or personal action:**
 
@@ -403,7 +402,7 @@ md("""
 **AI tool used:** OpenAI Codex (ChatGPT).  
 **Used for:** creating the Lab 0 notebook and companion Octave script,
 explaining Tasks 1.1–1.5, drafting the pre-lab examples and analysis answers,
-and preparing the local Git repository.  
+and preparing the Git repository and GitHub repository reference.  
 **Verification performed:** compare the impulse, step, ramp, and exponential
 against known values; verify cosine repetition at 8 and 15 samples and check
 smaller candidate periods; verify the 440 Hz fallback using its FFT; check

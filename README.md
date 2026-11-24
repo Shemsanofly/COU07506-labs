@@ -3,14 +3,18 @@
 Week 1 / Lab 0 follows printed pages 5-7 (PDF pages 6-8) of
 `COU07506_DSP_Laboratory_Manual_2026-27.pdf` supplied in the parent folder.
 
-Open `COU07506_Week01_YOUR_REGNO.ipynb` in Jupyter, VS Code, or Google Colab.
+Repository: [Shemsanofly/COU07506-labs](https://github.com/Shemsanofly/COU07506-labs).
+
+Open `COU07506_Week01_240242454734.ipynb` in Jupyter, VS Code, or Google Colab.
 It includes Tasks 1.1-1.5, plots, audio playback, pre-lab examples, analysis
 answers, and an AI-use statement. The saved notebook includes executed outputs.
 
 For local use, install `requirements.txt` in a Python 3.11+ environment. This
 workspace also has a prepared environment at `../.venv`. Select its Python
 interpreter as the notebook kernel, then restart the kernel and run all cells.
-The notebook builder can recreate the unexecuted notebook:
+The notebook builder can recreate an unexecuted template named
+`COU07506_Week01_YOUR_REGNO.ipynb`. It does not update your personalized
+notebook; keep only the notebook you intend to execute in this folder:
 
 ```powershell
 ..\.venv\Scripts\python.exe build_lab0.py
@@ -34,9 +38,11 @@ recording. Do not rename it to `my_voice.wav`.
 No Octave/MATLAB executable was available here, so that script has not been
 executed in either application.
 
-Task 1.5 uses the permitted local repository option: this folder is the
-`COU07506-labs` Git repository. The notebook is committed locally. No remote
-repository or eLMS upload is claimed.
+Task 1.5 uses the GitHub repository at
+[Shemsanofly/COU07506-labs](https://github.com/Shemsanofly/COU07506-labs).
+The notebook includes that clickable repository reference. Uploading the
+notebook to GitHub is separate from submitting it on DIT-eLMS; no eLMS
+upload is claimed.
 
 Before submitting:
 
@@ -48,9 +54,8 @@ Before submitting:
    supplied fallback.
 4. Review every cell and complete the student understanding declaration.
 5. Show the plots and audio measurements to your instructor for Checkpoint 1.
-6. Commit your personalized notebook (`git add` then `git commit`). A web
-   repository link can be added if you later push to GitHub/GitLab; currently
-   the notebook records the local repository path allowed by Task 1.5.
+6. Commit and push your personalized notebook so the GitHub copy matches
+   the file you submit. The repository link is already included in Task 1.5.
 7. Upload the final notebook to DIT-eLMS yourself; no connected eLMS session
    was available to perform or confirm the upload.
 8. Form your group of 3-5 students and post two topics to the eLMS forum. Two

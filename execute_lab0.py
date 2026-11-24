@@ -14,7 +14,10 @@ import nbformat
 from nbclient import NotebookClient
 from jupyter_client import AsyncKernelManager
 
-path = ROOT / 'COU07506_Week01_YOUR_REGNO.ipynb'
+notebooks = list(ROOT.glob('COU07506_Week01_*.ipynb'))
+if len(notebooks) != 1:
+    raise ValueError('Expected exactly one Week 1 notebook; remove any extra template copies.')
+path = notebooks[0]
 notebook = nbformat.read(path, as_version=4)
 manager = AsyncKernelManager(kernel_name='python3')
 manager.kernel_spec.argv = [sys.executable, '-m', 'ipykernel_launcher', '-f', '{connection_file}']
