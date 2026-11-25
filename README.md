@@ -27,13 +27,3 @@ the final personalized notebook.
 
 Repository: [Shemsanofly/COU07506-labs](https://github.com/Shemsanofly/COU07506-labs).
 
-For DIT-eLMS, submit `COU07506_Week01_240242454734.ipynb`, as required by
-the manual. It includes the Git repository link. If the submission form
-accepts supporting archives, the [submission ZIP](submission/COU07506_Week01_240242454734_Submission.zip)
-contains the same notebook, audio, figures, optional Octave script, and
-Python requirements. Extract the ZIP before opening its notebook.
-
-Review the pre-lab device examples and complete the understanding declaration
-yourself before uploading. Instructor sign-off and eLMS submission are
-personal steps. Post the two proposed mini-project topics in the group forum
-separately.
