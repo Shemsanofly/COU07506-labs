@@ -12,6 +12,11 @@ and the AI-use statement required by the laboratory manual.
 fallback tone. To use a phone recording, save a 3-5 second WAV as
 `my_voice.wav` beside the notebook and rerun all cells.
 
+`week01_lab0.py` is a standalone version of the notebook computations. Run
+`python week01_lab0.py` to save all four plots and the processed WAV in
+`outputs/`. Add `--show` to display plot windows. It accepts `my_voice.wav`
+beside the script and otherwise uses the same fallback tone as the notebook.
+
 `week01_lab0.m` is the optional Octave/MATLAB version of Task 1.1. It has
 not been executed in Octave/MATLAB.
 
@@ -27,3 +32,13 @@ the final personalized notebook.
 
 Repository: [Shemsanofly/COU07506-labs](https://github.com/Shemsanofly/COU07506-labs).
 
+For DIT-eLMS, submit `COU07506_Week01_240242454734.ipynb`, as required by
+the manual. It includes the Git repository link. If the submission form
+accepts supporting archives, the [submission ZIP](submission/COU07506_Week01_240242454734_Submission.zip)
+contains the same notebook, Python program, audio, figures, optional Octave script, and
+Python requirements. Extract the ZIP before opening its notebook.
+
+Review the pre-lab device examples and complete the understanding declaration
+yourself before uploading. Instructor sign-off and eLMS submission are
+personal steps. Post the two proposed mini-project topics in the group forum
+separately.
