@@ -1,0 +1,4 @@
+Text: Hello, I'm Shemsa Amin.
+Voice: Microsoft Zira Desktop (female), Windows speech synthesis.
+Rate setting: -2. Format: mono, 48,000 Hz, 16-bit PCM.
+Synthetic speech; this is not a phone recording or a recording of Shemsa's actual voice.
