@@ -1,26 +1,22 @@
-# COU07506 laboratory work
-
-Week 1 / Lab 0: Setting Up the DSP Laboratory.
+# COU07506 — Week 1
 
 SHEMSA NASSOR AMIN | 240242454734 | BEng24COE | Group 16
 
-Open [the Week 1 notebook](COU07506_Week01_240242454734.ipynb) in Jupyter, VS Code, or Google Colab. It includes executed plots, the audio player, pre-lab and analysis answers, two proposed mini-project topics, the repository link, and a ChatGPT (OpenAI) AI-use statement.
+This repository contains Week 1 / Lab 0 only. Weeks 2–4 are submitted separately.
 
-The female synthetic voice in [my_voice.wav](my_voice.wav) says **“Hello, I'm Shemsa Amin.”** It uses Microsoft Zira Desktop and is supplied as a 4-second, 48,000 Hz, mono, 16-bit PCM WAV. It is synthesized speech rather than a phone recording of the student. See [voice_source.txt](voice_source.txt). Keep it beside the notebook; upload it to the Colab Files panel before running. `outputs/lab0_processed.wav` contains the processed voice.
+Open [the Week 1 notebook](COU07506_Week01_240242454734.ipynb) in Jupyter or Google Colab. Keep [my_voice.wav](my_voice.wav) beside it; in Colab, upload the WAV to the Files panel before running all cells.
 
-One minute at this sampling rate requires 2,880,000 mono sample values or 5,760,000 bytes of 16-bit sample data, excluding the header.
+**Voice clip:** [Download my_voice.wav](https://raw.githubusercontent.com/Shemsanofly/COU07506-labs/main/my_voice.wav) and open it in an audio player. It says “Hello, I'm Shemsa Amin.” This is synthetic speech generated with Microsoft Zira Desktop: 4 seconds, 48,000 Hz, mono, 16-bit PCM. It is not a recording of the student. GitHub's notebook preview may hide the embedded audio player; use Jupyter or Colab to play it.
 
-Install and run:
+To run locally:
 
-```powershell
+```sh
 python -m pip install -r requirements.txt
-python execute_lab0.py
+jupyter notebook COU07506_Week01_240242454734.ipynb
 ```
 
-`week01_lab0.py` runs the same Python calculations and saves the plots and processed WAV. Add `--show` for plot windows. `build_lab0.py` renders the existing personalized notebook to HTML. Neither silently substitutes the previous 440 Hz fallback tone.
+Run the notebook cells from top to bottom. Plots and the processed WAV are generated in `outputs/`, which is excluded from GitHub. The notebook already includes saved plots and an embedded voice player.
 
-`week01_lab0.m` is the optional Octave/MATLAB Task 1.4 script; it has not been executed in Octave/MATLAB. Student review and instructor checkpoint boxes remain unsigned.
+`week01_lab0.m` is the optional Octave/MATLAB script for Task 1.4. It has not been run in Octave/MATLAB. Student review and instructor checkpoint boxes remain for completion.
 
-[Download the Week 1 submission ZIP](submission/COU07506_Week01_240242454734_Submission.zip).
-
-Repository: [Shemsanofly/COU07506-labs](https://github.com/Shemsanofly/COU07506-labs).
+GitHub is kept to this notebook, its voice input, the optional Octave script, installation requirements, this README, and `.gitignore`.
